@@ -1,0 +1,12 @@
+
+body {
+    margin: 0;
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#brain-container {
+    width: 100vw;
+    height: 90vh;
+}

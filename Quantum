@@ -1,0 +1,13 @@
+{
+  "query": "What's the latest on quantum computing?",
+  "plan": [
+    "Step 1: Understand query: What's the latest on quantum computing?",
+    "Step 2: Search for info",
+    "Step 3: Summarize findings",
+    "Step 4: Output response"
+  ],
+  "results": [
+    "Mock results for 'quantum computing latest': Some fascinating data here.",
+    "Summary: Mock results for 'quantum computing latest'... (truncated)"
+  ]
+}

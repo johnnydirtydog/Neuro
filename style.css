@@ -4,9 +4,86 @@ body {
     background-color: #111;
     color: #fff;
     font-family: Arial, sans-serif;
-    text-align: center;
+    overflow: hidden;
 }
+
 #brain-container {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brain-canvas {
+    background: linear-gradient(45deg, #0a0a0a, #1a1a2e);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
+}
+
+#ui-panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 10;
+    max-width: 300px;
+    border: 1px solid #4CAF50;
+}
+
+#ui-panel h1 {
+    margin: 0 0 20px 0;
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+#chat-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    outline: none;
+    border: 1px solid #555;
+}
+
+#input:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#response {
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 50px;
+    border-left: 3px solid #4CAF50;
+    font-size: 14px;
+    line-height: 1.4;
 }

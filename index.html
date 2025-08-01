@@ -1,1 +1,26 @@
-<!DOCTYPE html><html><head><title>NeuroAI Brain Explorer</title></head><body><script src='main.js'></script></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NeuroAI Brain Explorer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="brain-container">
+        <canvas id="brain-canvas" width="800" height="600"></canvas>
+    </div>
+    <div id="ui-panel">
+        <h1>NeuroAI Brain Explorer</h1>
+        <div id="chat-section">
+            <input type="text" id="input" placeholder="Ask about the brain..." />
+            <button onclick="askAgent()">Ask</button>
+            <div id="response"></div>
+        </div>
+    </div>
+    
+    <script src="neuroai.js"></script>
+    <script src="neuroai_3d.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
